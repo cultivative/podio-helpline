@@ -1,0 +1,11 @@
+
+!/src/settings/default.php
+/src/settings/*
+
+/src/vendor
+/src/composer.lock
+
+/.idea
+/podio-helpline.iml
+
+*.DS_Store

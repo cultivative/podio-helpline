@@ -1,0 +1,15 @@
+{
+  "name": "cultivative/podio-helpline",
+  "description": "Webservice to augment Podio-based helplines by enhancing the process for incoming request",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Stefan Nandzik",
+      "email": "stefan.nandzik@cultivative.org"
+    }
+  ],
+  "require": {
+    "podio-community/podio-php": "4.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+metadata:
+  name: podio-helpline
+build:
+  artifacts:
+  - image: podio-helpline
+deploy:
+  kubectl:
+    manifests:
+    - kubernetes-manifests/podio-helpline.deployment.yaml
+    - kubernetes-manifests/podio-helpline.service.yaml

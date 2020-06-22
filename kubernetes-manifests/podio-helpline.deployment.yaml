@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: podio-helpline
+  labels:
+    app: podio-helpline
+    tier: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: podio-helpline
+      tier: backend
+  template:
+    metadata:
+      labels:
+        app: podio-helpline
+        tier: backend
+    spec:
+      containers:
+        - name: podio-helpline
+          image: podio-helpline
+          ports:
+            - name: apache
+              containerPort: 80
+          resources:
+            requests:
+              cpu: "0.01"
