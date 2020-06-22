@@ -4,7 +4,7 @@
 // Create a copy of this file and name it 'config.php' in the same folder (/src/settings/)
 // Adjust the settings below with your project settings and field names before running the code
 // When setting up the web service url, please make sure the Podio Workspace id is provided as shown below
-// https://yourdomain.com/.../request/?space_id=1234567
+// https://yourdomain.com/podio/helpline/request/?space_id=1234567
 
 function initConfig($space_id) {
     switch ($space_id) {

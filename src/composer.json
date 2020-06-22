@@ -1,8 +1,8 @@
 {
   "name": "cultivative/podio-helpline",
-  "description": "Webservice to augment Podio-based helplines by enhancing the process for incoming request",
+  "description": "Web service to augment Podio-based helplines by enhancing the process for incoming request",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Stefan Nandzik",
@@ -10,6 +10,7 @@
     }
   ],
   "require": {
-    "podio-community/podio-php": "4.3.0"
+    "podio-community/podio-php": "4.3.0",
+    "ext-json": "*"
   }
 }

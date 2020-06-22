@@ -1,9 +1,8 @@
 
-!/src/settings/default.php
-/src/settings/*
+
+/src/settings/config.php
 
 /src/vendor
-/src/composer.lock
 
 /.idea
 /podio-helpline.iml
