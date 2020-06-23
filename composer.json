@@ -1,6 +1,7 @@
 {
   "name": "cultivative/podio-helpline",
-  "description": "Web service to augment Podio-based helplines by enhancing the process for incoming request",
+  "description": "Podio Helpline allows mutual aid groups to manage incoming calls & emails, the relationships with the people they serve and their pool of volunteers.",
+  "homepage": "https://github.com/cultivative/podio-helpline",
   "minimum-stability": "stable",
   "license": "GPL-3.0-or-later",
   "authors": [

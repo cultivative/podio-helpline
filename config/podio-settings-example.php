@@ -1,7 +1,7 @@
 <?php
 
 // Example configuration file.
-// Create a copy of this file and name it 'config.php' in the same folder (/src/settings/)
+// Create a copy of this file and name it 'podio-settings.php' in the same folder (/src/settings/)
 // Adjust the settings below with your project settings and field names before running the code
 // When setting up the web service url, please make sure the Podio Workspace id is provided as shown below
 // https://yourdomain.com/podio/helpline/request/?space_id=1234567

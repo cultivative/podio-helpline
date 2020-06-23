@@ -20,7 +20,6 @@ Before you begin, ensure you have met the following requirements:
 * You have a Podio account and organization.
 * You have a Google Voice account with a phone number to be exposed.
 * You have a dedicated email address that you can forward to be exposed.
-* You have a Kubernetes cluster to deploy the companion web service.
 
 ## Installing Podio Helpline
 
@@ -29,12 +28,9 @@ To install Podio Helpline with its own self-hosted webservice, follow these step
 1. Install the Podio apps (Requests, People, Volunteers) either manually or via the app store.
 2. Configure Google Voice to send calls to voicemail and via forward to the Request app's intake email in Podio.
 3. Configure your email address to forward all mails to the Request app's intake email in Podio.
-3. Copy the '_config.php' file to 'config.php' and update it with your Podio settings.
-4. Deploy the web service to your Kubernetes cluster and expose it as endpoint.
-5. Add your endpoint URL followed by '?space_id=' and the id of your Podio workspace:
-```
-https://yourdomain.com/podio/helpline/request?space_id=1234567
-```
+3. Copy '/config/podio-settings-example.php' file to '/config/podio-settings.php' and update it with your Podio settings.
+4. Deploy the php code and expose '/src/request/' it as the endpoint for the web service.
+5. Add your endpoint URL followed by '?space_id=' and the id of your Podio workspace as 'create item' web hook:
 
 ## Using Podio Helpline
 

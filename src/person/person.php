@@ -1,7 +1,7 @@
 <?php
 
-require_once '../vendor/autoload.php';
-require_once '../settings/config.php';
+require_once '../../vendor/autoload.php';
+require_once '../../config/podio-settings.php';
 
 class person {
 

@@ -1,10 +1,19 @@
 
+# Exclude production configuration file
+/config/podio-settings.php
+/config/alias.conf
 
-/src/settings/config.php
+# Exclude deployment specific files (gcloud / Kubernetes)
+/kubernetes-manifests/
+Dockerfile
+skaffold.yaml
 
-/src/vendor
+# Exclude 3rd party modules created via composer
+/vendor
 
+# Exclude IDE specific environment files (IntelliJ)
 /.idea
 /podio-helpline.iml
 
+# Exclude OS specific environment files (Mac OS)
 *.DS_Store
