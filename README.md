@@ -23,7 +23,14 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing Podio Helpline
 
-To install Podio Helpline with its own self-hosted webservice, follow these steps:
+Using Composer (recommended)
+
+`composer require cultivative/podio-helpline`
+
+
+## Configure Podio Helpline
+
+To configure Podio Helpline with its own self-hosted webservice, follow these steps:
 
 1. Install the Podio apps (Requests, People, Volunteers) either manually or via the app store.
 2. Configure Google Voice to send calls to voicemail and via forward to the Request app's intake email in Podio.
